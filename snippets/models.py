@@ -13,7 +13,10 @@ class Snippet(db.Model):
     code = db.TextField()
     linenos = db.BooleanField(default=False)
     language = db.CharField(choices=LANGUAGE_CHOICES, default='python', max_length=100)
-    style = db.CharField(choices=STYLE_CHOICES, default='fiendly', max_length=100)
+    style = db.CharField(choices=STYLE_CHOICES, default='friendly', max_length=100)
 
     class Meta:
         ordering = ('created',)
+
+    def __str__(self):
+        return self.code
