@@ -20,7 +20,7 @@ class Snippet(db.Model):
     highlighted = db.TextField()
 
     class Meta:
-        ordering = ('created',)
+        ordering = ('-created',)
 
     def __str__(self):
         return self.code
