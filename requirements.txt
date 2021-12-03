@@ -3,12 +3,12 @@ chardet==3.0.4
 coreapi==2.3.3
 coreschema==0.0.4
 Django>=2.2.3
-djangorestframework==3.9.1
+djangorestframework==3.11.2
 idna==2.8
 itypes==1.1.0
 Jinja2>=2.10.1
 MarkupSafe==1.1.0
-Pygments==2.3.1
+Pygments==2.7.4
 pytz==2018.7
 requests==2.21.0
 uritemplate==3.0.0
